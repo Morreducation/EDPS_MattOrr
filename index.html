@@ -6,17 +6,598 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>EDPS 6560</title>
+      
+    <style>
+      a{
+        color: #4ECDC4;
+      }
+      a:hover{
+        color: #81D4FA;
+      }
+      .col-pri{
+        color: #FD6A6A;  
+      }
+        img.card-img-top{
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+            margin: auto;
+        }
+        .card{
+            margin-top: 25px;
+        }
+        nav.bg-secondary{
+            margin-top: 25px;
+            height: 100px;
+        }
+        nav.bg-primary a.active{
+            border-bottom-color: white;
+            border-bottom-width: 5px;
+            border-bottom-style: solid;
+        }
+        nav.bg-primary a{
+            border-bottom-color: transparent;
+            border-bottom-width: 5px;
+            border-bottom-style: solid;
+        }
+        .hide_card{
+            visibility: hidden;
+        }
+        
+    </style>
   </head>
   <body>
-    <h1>Hi There</h1>
+      
+    <!-- As a heading -->
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">EDPS 6560: Multimedia Learning</span>
+    </nav>
+      
+    <!-- As a heading -->
+    <nav class="navbar navbar-dark bg-primary p-0 pt-1">
+        <div class="navbar-nav flex-row p-0">
+            <a id="frontend_link" href="#" class="nav-item nav-link active p-2">Front-End Web Dev</a>
+            <a id="adobecc_link" href="#" class="nav-item nav-link p-2">Adobe CC</a>
+            <a id="youtube_link" href="#" class="nav-item nav-link p-2">Lecture Slides</a>
+        </div>
+    </nav>
+    
+    <div id="frontend_row" class="container">
+      <div class="row">
+        <div class="col-sm">
+            <div class="card">
+              <div class="card-header">
+                Week 1  
+              </div>
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="W3C [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)]">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="card-text">HTML: Getting started</p>
+                    <a href="Week1/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                    <a href="Week1/index.html" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+              <div class="card-header">
+                Week 2  
+              </div>
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="W3C [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)]">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="card-text">HTML Elements</p>
+                    <a href="Week2/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                    <a href="Week2/EDPS6560_Week2.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">
+                Week 3  
+              </div>
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="W3C [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)]">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="card-text">HTML Structure</p>
+                    <a href="Week3/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                    <a href="Week3/EDPS6560_Week3.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+          
+      </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                   <div class="card-header">
+                Week 4  
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="W3C [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)]">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">HTML Tables and Grids</p>
+                        <a href="Week4/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week4/EDPS6560_Week4.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 5  
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">HTML Grids</p>
+                        <a href="Week5/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week5/EDPS6560_Week5.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 6  
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Selectors</p>
+                        <a href="Week6/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week6/EDPS6560_Week6.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 7  
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Typography</p>
+                        <a href="Week7/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week7/EDPS6560_Week7.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 8
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Images</p>
+                        <a href="Week8/projects/1.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week8/EDPS6560_Week8.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-header">
+                Week 9
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Box Model</p>
+                        <a href="Week9/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week9/EDPS6560_Week9.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card hide_card">
+                    <div class="card-header">
+                Week 10
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Images</p>
+                        <a href="Week10/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week10/Week10_WebDemo.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card hide_card">
+                    <div class="card-header">
+                Week 11
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                   <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Box Model</p>
+                        <a href="Week11/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week11/Week11_WebDemo.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card hide_card">
+                  <div class="card-header">
+                Week 12
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Position</p>
+                        <a href="Week12/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week12/DemoWeek12.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card hide_card">
+                  <div class="card-header">
+                Week 13
+                  </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">CSS Flex Container</p>
+                        <a href="Week13/index.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week13/Week13Demo.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card hide_card">
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <div class="card-body">
+                    <h5 class="card-title">Week 14</h5>
+                    <!--<p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">See Example</a>-->
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card hide_card">
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <div class="card-body">
+                    <h5 class="card-title">Week 15</h5>
+                    <!--<p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">See Example</a>-->
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div id="adobecc_row" class="container" style="display: none;">
+      <div class="row">
+        <div class="col-sm">
+            <div class="card">
+              <div class="card-header">
+                Week 1  
+              </div>
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Adobe_Creative_Cloud_mark.svg" alt="Adobe Creative Cloud [Public domain], via Wikimedia Commons">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="card-text">Intro to Adobe Creative Cloud</p>
+                    <a href="Week1/index.html" class="btn btn-primary hide_card" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                    <a href="Week1/index.html" class="btn btn-primary hide_card" download><i class="fas fa-file-download"></i> Download</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+              <div class="card-header">
+                Week 2  
+              </div>
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Adobe_Photoshop_CS6_icon.svg" alt="Adobe Systems [Public domain], via Wikimedia Commons">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="card-text">Photo Correction</p>
+                    <a href="Week2/img/background_v2.jpg" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                    <a href="Week2/EDPS6560_Week2edits.psd" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header">
+                Week 3  
+              </div>
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Adobe_Photoshop_CS6_icon.svg" alt="Adobe Systems [Public domain], via Wikimedia Commons">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="card-text">Photo Enhancement</p>
+                    <button href="#" class="btn btn-primary" type="button" disabled><i class="fas fa-desktop"></i> Preview</button>
+                    <a href="https://drive.google.com/open?id=14wT0mfwaMBOMd85sUKxlrOIa6IzMilxv" class="btn btn-primary" target="_blank"><i class="fas fa-file-download"></i> Download</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+          
+      </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 4 
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Adobe_Photoshop_CS6_icon.svg" alt="Adobe Systems [Public domain], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Photo Selection</p>
+                        <a href="Week4/EDPS6560_Week4.png" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week4/EDPS6560_Week4.psd" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 5 
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Adobe_Photoshop_CS6_icon.svg" alt="Adobe Systems [Public domain], via Wikimedia Commons">
+                 <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Exporting Raster Graphics</p>
+                        <a href="Week5/EDPS6560_Week5.jpg" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week5/EDPS6560_Week5.psd" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 6 
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Video Editing</p>
+                        <a href="Week6/Scene1.mp4" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week6/EDPS6560_Week6_Pr.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 7 
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Video Trimming</p>
+                        <a href="Week7/EDPS6560_Week7_Pr.mp4" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week7/EDPS6560_Week7_Pr.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-header">
+                Week 8
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Video Effects</p>
+                        <a href="Week8/EDPS6560_Week8.mp4" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week8/EDPS6560_Week8_Pr.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                     <div class="card-header">
+                Week 9
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Editing Audio</p>
+                        <a href="Week9/EDPS6560_Week9.mp4" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week9/EDPS6560_Week9_Pr.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card hide_card">
+                    <div class="card-header">
+                Week 10
+                </div>
+                  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" alt="Rudloff [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Video Effects</p>
+                        <a href="Week10/video.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week10/Week10_PremiereDemo.zip" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card hide_card">
+                  <div class="card-header">
+                Week 11
+                </div>
+                  <img class="card-img-top adobe_cus" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Adobe Systems Incorporated [Public domain], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Ai Intro</p>
+                        <a href="Week11/aidemo.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week11/Week11_AIDemo.ai" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card hide_card">
+                  <div class="card-header">
+                Week 12
+                </div>
+                  <img class="card-img-top adobe_cus" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Adobe Systems Incorporated [Public domain], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Ai Shapes</p>
+                        <a href="Week12/aidemo.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week12/AIDemoWeek12.ai" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card hide_card">
+                <div class="card-header">
+                Week 13
+                </div>
+                  <img class="card-img-top adobe_cus" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Adobe Systems Incorporated [Public domain], via Wikimedia Commons">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="card-text">Ai Shapes</p>
+                        <a href="Week13/aidemo.html" class="btn btn-primary" target="_blank"><i class="fas fa-desktop"></i> Preview</a>
+                        <a href="Week13/Week13AIDemo.ai" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              <div class="col-sm">
+                <div class="card hide_card">
+                  <img class="card-img-top adobe_cus" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Adobe Systems Incorporated [Public domain], via Wikimedia Commons">
+                  <div class="card-body">
+                    <h5 class="card-title">Week 14</h5>
+                    <!--<p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">See Example</a>-->
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card hide_card">
+                  <img class="card-img-top adobe_cus" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Adobe Systems Incorporated [Public domain], via Wikimedia Commons">
+                  <div class="card-body">
+                    <h5 class="card-title">Week 15</h5>
+                    <!--<p class="card-text"></p>
+                    <a href="#" class="btn btn-primary">See Example</a>-->
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="youtube_row" class="container-fluid" style="display: none;">
+      <div class="row">
+          <div class="col-7">
+              <iframe style="width:100%;height:750px;margin-top:25px;" src="https://www.youtube.com/embed/videoseries?list=PLWZDcy6SbCTt3-WOQy3f7Z0BClqJgmPOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-5">
+              <iframe src="https://drive.google.com/embeddedfolderview?id=1YmSh8OJhg-Y3XGS1_e8W3WJZEWpolOto#list" style="width:100%;height:750px;margin-top:25px;" frameborder="0"></iframe>
+          </div>
+      </div>
+  </div>
+    
+    <!-- Footer Area 
+    <nav class="navbar navbar-dark bg-secondary">
+      
+    </nav>-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        var frontend_link = document.getElementById("frontend_link");
+        var adobecc_link = document.getElementById("adobecc_link");
+        var youtube_link = document.getElementById("youtube_link");
+        
+        var frontend_row = document.getElementById("frontend_row");
+        var adobecc_row = document.getElementById("adobecc_row");
+        var youtube_row = document.getElementById("youtube_row");
+        
+        console.log(frontend_link);
+        console.log(adobecc_link);
+        console.log(youtube_link);
+        console.log(frontend_row);
+        console.log(adobecc_row);
+        console.log(youtube_row);
+        
+        frontend_link.addEventListener("click",Show_FrontEnd);
+        adobecc_link.addEventListener("click",Show_AdobeCC);
+        youtube_link.addEventListener("click",Show_YouTube);
+        
+        function Show_FrontEnd(){
+            frontend_row.style.display = "block";
+            adobecc_row.style.display = "none";
+            youtube_row.style.display = "none";
+
+            frontend_link.classList.add("active");
+            adobecc_link.classList.remove("active");
+            youtube_link.classList.remove("active");
+        }
+        
+        function Show_AdobeCC(){
+            adobecc_row.style.display = "block";
+            frontend_row.style.display = "none";
+            youtube_row.style.display = "none";
+            
+            adobecc_link.classList.add("active");
+            frontend_link.classList.remove("active");
+            youtube_link.classList.remove("active");
+        }
+
+        function Show_YouTube(){
+            frontend_row.style.display = "none";
+            adobecc_row.style.display = "none";
+            youtube_row.style.display = "block";
+
+            adobecc_link.classList.remove("active");
+            frontend_link.classList.remove("active");
+            youtube_link.classList.add("active");
+        }
+    </script>
   </body>
 </html>
